@@ -12,5 +12,9 @@ class LeetCodeMain{
         PalindromNum palNumObj = new PalindromNum();
         System.out.println("\n"+palNumObj.isPalindrom(1234));
         System.out.println(palNumObj.isPalindrom(121));
+
+        //Reverse Integer
+        ReverseInteger revInt = new ReverseInteger();
+        System.out.println(revInt.revInteger(6469));
     }
 }
