@@ -1,6 +1,5 @@
 class LeetCodeMain{
     public static void main(String[] args) {
-        
         //TwoSum
         TwoSum twoSumObj = new TwoSum();
         int[] ans = twoSumObj.twoSum(new int[] {1, 2, 3, 4}, 7);
@@ -19,5 +18,12 @@ class LeetCodeMain{
 
         MergeSortedArray merge = new MergeSortedArray();
         System.err.println(merge.mergeArray(new int[]{1,2,3,0,0,0}, 3, new int[]{2,3,4}, 3));
+        //jps2609134
+
+        NextPermutationAsc nxtPrm = new NextPermutationAsc();
+        int[] arr = nxtPrm.nextPermutation(new int[]{1,2,3,5,6});
+        for(int i: arr){
+            System.out.print(i+",");
+        }
     }
 }
