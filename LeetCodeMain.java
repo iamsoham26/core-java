@@ -16,5 +16,8 @@ class LeetCodeMain{
         //Reverse Integer
         ReverseInteger revInt = new ReverseInteger();
         System.out.println(revInt.revInteger(6469));
+
+        MergeSortedArray merge = new MergeSortedArray();
+        System.err.println(merge.mergeArray(new int[]{1,2,3,0,0,0}, 3, new int[]{2,3,4}, 3));
     }
 }
