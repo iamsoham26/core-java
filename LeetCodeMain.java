@@ -9,7 +9,7 @@ class LeetCodeMain{
         System.out.println(Integer.decode("10")+
         new Integer("20")+
         Integer.valueOf("30"));
-        /*TwoSum twoSumObj = new TwoSum();
+        TwoSum twoSumObj = new TwoSum();
         int[] ans = twoSumObj.twoSum(new int[] {1, 2, 3, 4}, 7);
         for(int a: ans){
             System.out.print(a+" ");
@@ -28,10 +28,16 @@ class LeetCodeMain{
         System.err.println(merge.mergeArray(new int[]{1,2,3,0,0,0}, 3, new int[]{2,3,4}, 3));
         //jps2609134
 
+        merge.sockMerchant(7, new int[]{1,2,1,3,2,1,2});
+
+        merge.countingValleys(7, "UUDDUUD");
+
+        merge.jumpingOnClouds(new int[]{0,1,0,0,1,0,0});
+
         NextPermutationAsc nxtPrm = new NextPermutationAsc();
         int[] arr = nxtPrm.nextPermutation(new int[]{1,2,3,5,6});
-        for(int i: arr){
-            System.out.print(i+",");
-        }*/
+        //for(int i: arr){
+        //    System.out.print(i+",");
+        //}
     }
 }
