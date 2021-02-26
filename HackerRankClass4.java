@@ -1,10 +1,10 @@
 import java.lang.reflect.Constructor;
 
-public class HackerRankInheritance {
+public class HackerRankClass4 {
     
     private int age;
 
-    public HackerRankInheritance(int initialAge) {
+    public HackerRankClass4(int initialAge) {
         if(initialAge >= 0){
             this.age = initialAge;
         } else if(initialAge < 0) {
