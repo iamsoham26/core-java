@@ -6,9 +6,6 @@ class LeetCodeMain{
             System.out.println(s);
         }
 
-        System.out.println(Integer.decode("10")+
-        new Integer("20")+
-        Integer.valueOf("30"));
         TwoSum twoSumObj = new TwoSum();
         int[] ans = twoSumObj.twoSum(new int[] {1, 2, 3, 4}, 7);
         for(int a: ans){
@@ -36,8 +33,8 @@ class LeetCodeMain{
 
         NextPermutationAsc nxtPrm = new NextPermutationAsc();
         int[] arr = nxtPrm.nextPermutation(new int[]{1,2,3,5,6});
-        //for(int i: arr){
-        //    System.out.print(i+",");
-        //}
+        for(int i: arr){
+            System.out.print(i+",");
+        }
     }
 }

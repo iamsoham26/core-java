@@ -1,6 +1,7 @@
 package multithreading;
 
-import multithreading.*;
+import multithreading.DeadlockA;
+import multithreading.DeadlockB;
 
 /* In Java, a deadlock is a situation where minimum two 
 * threads are holding the lock on some different resource, 

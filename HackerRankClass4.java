@@ -1,5 +1,3 @@
-import java.lang.reflect.Constructor;
-
 public class HackerRankClass4 {
     
     private int age;
