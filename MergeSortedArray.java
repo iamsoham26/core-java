@@ -37,9 +37,11 @@ public class MergeSortedArray {
 
         int noOfSteps = 0;
 
-        for(int i = 0; i < c.length; i++, noOfSteps++) {
-            if((i<c.length-2) && (c[i+2] != 0)) {
-                i++;
+        for(int i = 0; i < c.length-2; i++) {
+            if((i == c.length-1) && (c[i+1] != 0)) {
+                noOfSteps++;
+            } else if((i < c.length-2) && (c[i+2] != 0)){
+                noOfSteps++;
             }
         }
 

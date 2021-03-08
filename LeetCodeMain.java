@@ -1,7 +1,15 @@
+import java.util.Arrays;
+
 class LeetCodeMain{
     public static void main(String[] args) {
         //TwoSum
-        Object o = new String[]{"a","b"};
+
+        System.out.println(77%5);
+
+        int[] a = new int[]{1,2,3};
+        Arrays.asList(a);
+
+        /*Object o = new String[]{"a","b"};
         for(String s: (String[])o){
             System.out.println(s);
         }
@@ -29,12 +37,12 @@ class LeetCodeMain{
 
         merge.countingValleys(7, "UUDDUUD");
 
-        merge.jumpingOnClouds(new int[]{0,1,0,0,1,0,0});
+        merge.jumpingOnClouds(new int[]{0,0,0,1,0,0});
 
         NextPermutationAsc nxtPrm = new NextPermutationAsc();
         int[] arr = nxtPrm.nextPermutation(new int[]{1,2,3,5,6});
         for(int i: arr){
             System.out.print(i+",");
-        }
+        }*/
     }
 }
